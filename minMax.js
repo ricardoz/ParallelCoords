@@ -102,11 +102,11 @@
 				}
 				
 				if (min < tsMin){
-				overallMin = min;
+					tsMin = min;
 				}
 			
 				if (max > tsMax){
-					overallMax = max;
+					tsMax = max;
 				}
 			}
 			
