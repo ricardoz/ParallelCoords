@@ -3,7 +3,7 @@
 		var overallMin = 2000;
 		var overallMax = 0;
 		var tsMin = 2000;
-		var tsMAx = 0;
+		var tsMax = 0;
 		var theStart = true;
 		var xLabel = 'furlongs';
 		var tsArray = [];
@@ -94,11 +94,11 @@
 				}
 				
 				if (xMin < overallMin){
-				overallMin = min;
+				overallMin = xMin;
 				}
 			
 				if (xMax > overallMax){
-					overallMax = max;
+					overallMax = xMax;
 				}
 				
 				if (min < tsMin){
