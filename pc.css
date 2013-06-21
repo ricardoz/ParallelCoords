@@ -11,61 +11,50 @@
   pointer-events: none;         
 }
 
-.ParChart textarea
+
+  #ParChart textarea
 {
-	    width:100%;
+    width:100%;
 }
 
-.ParChart .textwrapper
+#ParChart .textwrapper
 {
     border:1px solid #999999;
     margin:5px 0;
     padding:5px;
 }
 
-.ParChart path
+#ParChart path
 {
   fill: none;
-  stroke: yellow;
-  stroke-width:2;
-  stroke-opacity: .8;
-  shape-rendering: crispEdges;
-  
-}
-
- .background
-{
-  fill: none;
-  stroke: black;
-  stroke-opacity: .1;
-  color: green;
-}
-
-.ParChart .brush .extent
-{
-  fill-opacity: .3;
-  stroke: blue;
-  stroke-width:2;
+  /*stroke: #ccc;*/
+  stroke-opacity: .9;
   shape-rendering: crispEdges;
 }
 
-.ParChart .axis line
+#ParChart .foreground path
 {
   fill: none;
   stroke: green;
-  stroke-width:7;
+  stroke-opacity: .9;
+}
+
+
+#ParChart .brush .extent
+{
+  fill-opacity: .3;
+  stroke: yellow;
   shape-rendering: crispEdges;
 }
 
-#ParChart .axis path
+#ParChart .axis line, #ParChart .axis path
 {
   fill: none;
-  stroke: yellow;
-  stroke-width:7;
+  stroke: #000;
   shape-rendering: crispEdges;
 }
 
-.ParChart .axis text
+#ParChart .axis text
 {
   text-shadow: 0 1px 0 #fff;
 }
