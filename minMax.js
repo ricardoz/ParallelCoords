@@ -83,7 +83,7 @@
 						if (ts < min){
 							xMin = ts;
 						}
-						if (d > max){
+						if (ts > max){
 							xMax = ts;
 						}
 						
