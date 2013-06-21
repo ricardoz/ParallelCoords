@@ -61,7 +61,7 @@
 
 					if (!isNaN(rpr)){
 	
-					 	rpr = parseInt(d);
+					 	rpr = parseInt(rpr);
 					 
 					 	races[j]['rpr'] = rpr;
 						if (d < min){
