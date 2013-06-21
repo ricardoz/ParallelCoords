@@ -64,10 +64,10 @@
 					 	rpr = parseInt(rpr);
 					 
 					 	races[j]['rpr'] = rpr;
-						if (d < min){
+						if (rpr < min){
 							min = rpr;
 						}
-						if (d > max){
+						if (rpr > max){
 							max = rpr;
 						}
 						
