@@ -1,4 +1,5 @@
 <script>
+		alert("ok hf");
 		//min max foreac horse
 		var overallMin = 2000;
 		var overallMAx = 0;
