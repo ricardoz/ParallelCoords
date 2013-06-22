@@ -99,6 +99,7 @@
 			
 				if (xMax > overallMax){
 					overallMax = xMax;
+					
 				}
 				
 				if (min < tsMin){
@@ -107,15 +108,18 @@
 			
 				if (max > tsMax){
 					tsMax = max;
+					
 				}
 			}
 			
 			
 			for(i=0; i<tsArray.length;i++){
 				tsArray[i]['ts'] = tsMin;
+				
 			}
 			for(i=0; i<rprArray.length;i++){
-				rprArray[i]['rp'] = overallMin;
+				rprArray[i]['rpr'] = overallMin;
+				
 			}
 		}
 		

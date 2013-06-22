@@ -28,6 +28,7 @@
 {
   fill: none;
   /*stroke: #ccc;*/
+  stroke-width:1;
   stroke-opacity: .9;
   shape-rendering: crispEdges;
 }
@@ -43,7 +44,7 @@
 #ParChart .brush .extent
 {
   fill-opacity: .3;
-  stroke: yellow;
+  stroke: blue;
   shape-rendering: crispEdges;
 }
 
