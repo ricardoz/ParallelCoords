@@ -1,12 +1,5 @@
 // FIND INDEX AND UPDATE IFRAME
-    var counter = 0;
-    var course = "red";
-    var allHorses = {}
-    var currentHorse = 2;
-    
-    var horseLinks =[];
-    var allLinks = [];
-    var allFilters=[];
+
 
     function findIndex(arr,obj) {
  	var ind = arr.indexOf(obj);
