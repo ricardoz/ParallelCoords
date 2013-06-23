@@ -32,11 +32,10 @@ var svg = d3.select("body").append("svg")
   .attr("transform", "translate(40,20)");
 
 
-    
-    
-    
-    dims =['date','going', 'dist','value' ,'rpr','pos', 'ts','OR','raceClass','runners','course','price'];
-    
+
+
+
+
     rs = horse['races']; 
 	
 	var getData = function(i){
