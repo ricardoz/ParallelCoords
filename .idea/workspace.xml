@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e6789a14-830a-4dfc-b199-394a2ec70f2a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pc.htm" afterPath="$PROJECT_DIR$/pc.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pc.js" afterPath="$PROJECT_DIR$/pc.js" />
-    </list>
+    <list default="true" id="e6789a14-830a-4dfc-b199-394a2ec70f2a" name="Default" comment="" />
     <ignored path="ParallelCoords.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="e6789a14-830a-4dfc-b199-394a2ec70f2a" time="1371996200298" ignored="false" />
