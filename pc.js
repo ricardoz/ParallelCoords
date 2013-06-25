@@ -1,40 +1,41 @@
 // Check if race matches course
 // Return boolean to wnable combinations
 var filterByCourse = function(race){
-	return race['course'].toLowerCase() === course;
+	return race['course'].toLowerCase() === course.toLowerCase();
 }
 
-var filterByValue = function(race){
- 	var bool = race['value'] > 2;
- 	
-	return bool;
-}
+var filterByValue;
+
+filterByValue = function (race) {
+    var bool = race['value'] > theRaceValue;;
+
+    return bool;
+};
+
 
 var filterByClass = function(race){
  
  
  	var re = new RegExp("\d");
  	var digit = re.exec(race['raceClass']);
- 	var bool = digit < 5;
+ 	var bool = digit < theRaceClass;
  	
 	return bool;
 
 }
 
+
+
 var pc = function(horse){
 
- 
+    alert("in par cooords30 " + document.documentElement.innerHTML);
  	// Create an SVG for our chart.
 var svg = d3.select("body").append("svg")
   .attr("width", 1500)
-  .attr("height", 1000)
+  .attr("height", 570)
   .append("g")
   .attr("transform", "translate(40,20)");
-
-
-
-
-
+    alert("in par cooords40 " + document.documentElement.innerHTML);
 
     rs = horse['races']; 
 	
@@ -108,17 +109,21 @@ var svg = d3.select("body").append("svg")
     	}
   	}
   );
-  
+    alert("in par cooords50 " + document.documentElement.innerHTML);
 pcChart.attr("csv.data", data); 
 //pcChart.attr("normalize", pcData.length <= 1);
 
 pcChart.render();
+    alert("in par cooords60 " + document.documentElement.innerHTML);
+    //document.write("<h3>" +horse['name'] +"</h3>")
 	
 }
 
 var createChart = function(horse){
- 
+
+
  	raceLinksFromHorse(horse,allFilters);
+    alert("in cc2" + document.documentElement.innerHTML);
  
   	var w= 400;
  	var h = 400;
@@ -129,7 +134,7 @@ var createChart = function(horse){
  	
  	
  	var xScale = d3.scale.linear()
-								 .domain([3, tsMax +2])
+								 .domain([-1, 20+2])
 								 .range([padding, w - padding]);
 								 
 								 
@@ -167,8 +172,8 @@ var createChart = function(horse){
 			.style("font-size", "16px") 
         	.style("text-decoration", "underline")  
         	.text(horse['name']);
-        	
-        	
+
+
              
            
     var circles = svg.selectAll("circle")
@@ -234,7 +239,7 @@ var createChart = function(horse){
 				.attr("class", "axis")
 				.attr("transform", "translate(" + padding + ",0)")
 				.call(yAxis);
-				
+
 				pc(horse);
         
   

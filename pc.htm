@@ -2,7 +2,73 @@
 <html>
     <head>
     <link rel="stylesheet" type="text/css" href="pc.css"/>
-    <script>
+  
+
+</head>
+
+<body >
+
+
+<select id ="horses" onchange="changeHorse()">
+<option value=UncleFred>Uncle Fred</option>
+<option value=FinalDelivery>Final Delivery</option>
+<option value=StIgnatius>St Ignatius</option>
+<option value=GreenEarth>Green Earth</option>
+<option value=UnbreakMyHeart>Unbreak My Heart</option>
+
+</select>
+    
+    <br>Course<input type="checkbox" onchange="changeHorse()" name="chk" value="Milk">   
+    	Name: <input type="text" onchange="changeHorse()" name="f0" value="6"><br>
+    Value  <input type="checkbox" onchange="changeHorse()" name="chk" value="Butter" checked>   
+    Money: <input type="text" onchange="changeHorse()"name="f1"><br>
+    Class<input type="checkbox" onchange="changeHorse()"name="chk" value="Cheese">   
+    Grade: <input type="text" onchange="changeHorse()"name="f2"><br>
+        <table width="1200px" border="2" id="horseCarouselTable">
+    
+        <tr>
+    
+        <td rowspan="2" id="horseCarouselNavigation">
+        <a href="#" onclick="updateIframe(counter+1); return false">
+        <img src="leftArrow.gif"/>
+    	</a>
+        <br />
+        <a href="#" onclick="updateIframe(counter-1); return false"><img src="rightArrow.gif"/></a>
+        </td>
+        <td>Horse Form / Race Name</td>
+    
+        <td>H2H Horses</td>
+        </tr>
+    
+        <tr>
+    
+        <td id= "horseName">Race name to appear here</td>
+    
+        <td id= "horseCarouselH2H">Other horses from both races here</td>
+        </tr>
+        <tr id="chart">
+        </tr>
+    
+        </table>
+    
+        <br />
+    
+    
+                    <iframe
+                    	id = "horseFrame"
+                        width="800"
+                        height="600"
+                        src="http://www.google.com"
+                        frameborder="0"
+                        
+    
+                ></iframe>
+                
+      <div id="example" class="parcoords" ></div>          
+               
+    
+
+  <script>
     var dims =['date','going','furlongs', 'dist','value' ,'rpr','pos', 'ts','OR','raceClass','runners','course','price'];
     var counter = 0;
     var course = "red";
@@ -12,6 +78,9 @@
     var horseLinks =[];
     var allLinks = [];
     var allFilters=[];
+    var theRaceValue = 2;
+    var theRaceClass = 5;
+    
     </script>
 		<script src="http://d3js.org/d3.v3.min.js"></script>
 	<script src="http://d3js.org/topojson.v0.min.js"></script>
@@ -32,23 +101,17 @@
 	
 	<script src="horseFrame.js"></script>
 	
-	<script src="minMax.js">
+	<script src="minMax.js"></script>
+	<script type="application/javascript;version=1.7" src="pc.js"></script>
 	
-</script>
-
-<script type="application/javascript;version=1.7" src="pc.js">
-
-
-
-</script>
-
-<script>
+	
+	<script>
 var changeHorse = function()
 {
  
-
+            //alert("ch horse");
  
- 	if (theStart){
+ 	//if (theStart){
 		for (var horseName in allHorses){
 		
 			 var horse = allHorses[horseName];
@@ -58,10 +121,10 @@ var changeHorse = function()
 			 createChart(horse);
 
 		}
-	}
+	//}
 
-var mylist=document.getElementById("horses");
-document.getElementById("horseName").innerHTML="<strong>"+mylist.options[mylist.selectedIndex].text+"</strong>";
+
+//document.getElementById("horseName").innerHTML="<strong>"+mylist.options[mylist.selectedIndex].text+"</strong>";
 currentHorse = allHorses[mylist.options[mylist.selectedIndex].text];
 
 
@@ -74,7 +137,8 @@ var filters = [];
 for(k=0;k< chklength;k++)
 {
  var inn = "f"+k;
- 
+
+    alert(document.getElementsByName(inn)[0].value);
  
     if(chk_arr[k].checked === true){
 		filters.push(allFilters[k]);
@@ -86,6 +150,10 @@ var links = raceLinksFromHorse(currentHorse,filters)
 return  links;
 }
 </script>
+
+
+
+
 
 <script>
 // {"going": "GF", "distNext": "4.75L Norse Blues 8-8)", "jockey": "Connor Beasley", "weight": 118, "rpr": "*", "raceClass": "C2Hc", "///// price": 25.0, "pos": 6, "value": 16, "ts": "*", "course": "Thi", "href": "http://www.racingpost.com/horses/result_home.sd?race_id=////// 576401", "date": "04May13", "furlongs": 8, "OR": 92, "runners": 15}
@@ -105,9 +173,9 @@ function prettyPrintOneRace(race){
 
 </script>
         
-    </head>
     
-    <body >
+    
+    
    
     
 <script type='text/javascript'>;
@@ -739,68 +807,21 @@ function prettyPrintOneRace(race){
  allHorses['Unbreak My Heart'] = UnbreakMyHeart;
     
     </script>
-<select id ="horses" onchange="changeHorse()">
-<option value=UncleFred>Uncle Fred</option>
-<option value=FinalDelivery>Final Delivery</option>
-<option value=StIgnatius>St Ignatius</option>
-<option value=GreenEarth>Green Earth</option>
-<option value=UnbreakMyHeart>Unbreak My Heart</option>
-
-</select>
-    
-    <br>Course<input type="checkbox" onchange="changeHorse()" name="chk" value="Milk">   
-    	Name: <input type="text" onchange="changeHorse()" name="f0" value="6"><br>
-    Value  <input type="checkbox" onchange="changeHorse()" name="chk" value="Butter" checked>   
-    Money: <input type="text" onchange="changeHorse()"name="f1"><br>
-    Class<input type="checkbox" onchange="changeHorse()"name="chk" value="Cheese">   
-    Grade: <input type="text" onchange="changeHorse()"name="f2"><br>
-        <table width="1200px" border="2" id="horseCarouselTable">
-    
-        <tr>
-    
-        <td rowspan="2" id="horseCarouselNavigation">
-        <a href="#" onclick="updateIframe(counter+1); return false">
-        <img src="leftArrow.gif"/>
-    	</a>
-        <br />
-        <a href="#" onclick="updateIframe(counter-1); return false"><img src="rightArrow.gif"/></a>
-        </td>
-        <td>Horse Form / Race Name</td>
-    
-        <td>H2H Horses</td>
-        </tr>
-    
-        <tr>
-    
-        <td id= "horseName">Race name to appear here</td>
-    
-        <td id= "horseCarouselH2H">Other horses from both races here</td>
-        </tr>
-        <tr id="chart">
-        </tr>
-    
-        </table>
-    
-        <br />
-    
-    
-                    <iframe
-                    	id = "horseFrame"
-                        width="800"
-                        height="600"
-                        src="http://www.google.com"
-                        frameborder="0"
-                        
-    
-                ></iframe>
-                
-      <div id="example" class="parcoords" ></div>          
-                <script>
-    
 
 
 
 
+
+
+
+
+
+
+
+
+ <script>
+var mylist=document.getElementById("horses");
+var hcr = document.getElementById("horseCarouselH2H");
 
 function raceLinksFromHorse(horse, filters){
 
@@ -809,7 +830,7 @@ function raceLinksFromHorse(horse, filters){
 	var raceIndex=1;
 	var hrefs = [horse];
 	
-	var hcr = document.getElementById("horseCarouselH2H");
+	
 	var html = ""
 	
 	
