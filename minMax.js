@@ -13,7 +13,7 @@
 		
 		
 		var setMinAndMax = function(allTheHorses){
-		 	
+		 	                            alert("in min and max");
 			
 			for (var horseName in allTheHorses){
 				var min = 2000;
@@ -41,22 +41,7 @@
 						races[j]['dist']=0-parseFloat(s.slice(0,s.indexOf('L')));
 					}
 					
-					
-					
-					
-					if (rpr < min){
-							xMin = rpr;
-					}
-					if (rpr > max){
-							xMax = rpr;
-					}
-					
-					if (ts < min){
-							Min = rpr;
-					}
-					if (ts > max){
-							Max = rpr;
-					}
+
 
 					if (!isNaN(rpr)){
 	
@@ -79,10 +64,10 @@
 					 	ts = parseInt(ts);
 					 
 					 	races[j]['ts'] = ts;
-						if (ts < min){
+						if (ts < xMin){
 							xMin = ts;
 						}
-						if (ts > max){
+						if (ts > xMax){
 							xMax = ts;
 						}
 						
