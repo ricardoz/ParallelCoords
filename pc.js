@@ -1,24 +1,24 @@
 // Check if race matches course
 // Return boolean to wnable combinations
-var filterByCourse = function(race){
-	return race['course'].toLowerCase() === course.toLowerCase();
+var filterByCourse = function(race,value){
+	return race['course'].toLowerCase() === value.toLowerCase();
 }
 
 var filterByValue;
 
-filterByValue = function (race) {
-    var bool = race['value'] > theRaceValue;;
+filterByValue = function (race,value) {
+    var bool = race['value'] > value;;
 
     return bool;
 };
 
 
-var filterByClass = function(race){
+var filterByClass = function(race,value){
  
  
  	var re = new RegExp("\d");
  	var digit = re.exec(race['raceClass']);
- 	var bool = digit < theRaceClass;
+ 	var bool = digit >= value;
  	
 	return bool;
 
@@ -120,7 +120,7 @@ pcChart.render();
 var createChart = function(horse){
 
 
- 	raceLinksFromHorse(horse,allFilters);
+ 	//raceLinksFromHorse(horse,allFilters);
  
   	var w= 400;
  	var h = 400;
