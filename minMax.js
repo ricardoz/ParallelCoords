@@ -1,7 +1,6 @@
 
 		//min max foreac horse
-		var overallMin = 2000;
-		var overallMax = 0;
+
 		var tsMin = 2000;
 		var tsMax = 0;
 		var theStart = true;

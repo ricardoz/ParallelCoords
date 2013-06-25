@@ -28,14 +28,14 @@ var filterByClass = function(race){
 
 var pc = function(horse){
 
-    alert("in par cooords30 " + document.documentElement.innerHTML);
+
  	// Create an SVG for our chart.
 var svg = d3.select("body").append("svg")
   .attr("width", 1500)
   .attr("height", 570)
   .append("g")
   .attr("transform", "translate(40,20)");
-    alert("in par cooords40 " + document.documentElement.innerHTML);
+
 
     rs = horse['races']; 
 	
@@ -109,13 +109,11 @@ var svg = d3.select("body").append("svg")
     	}
   	}
   );
-    alert("in par cooords50 " + document.documentElement.innerHTML);
+
 pcChart.attr("csv.data", data); 
-//pcChart.attr("normalize", pcData.length <= 1);
+pcChart.attr("normalize", pcData.length <= 1);
 
 pcChart.render();
-    alert("in par cooords60 " + document.documentElement.innerHTML);
-    //document.write("<h3>" +horse['name'] +"</h3>")
 	
 }
 
@@ -123,7 +121,6 @@ var createChart = function(horse){
 
 
  	raceLinksFromHorse(horse,allFilters);
-    alert("in cc2" + document.documentElement.innerHTML);
  
   	var w= 400;
  	var h = 400;
@@ -215,7 +212,7 @@ var createChart = function(horse){
 				
 				  
             })                  
-        .on("mouseout", function(d) { 
+        .on("mouseout", function(d) {
 		       
             div.transition()        
                 .duration(500)      
