@@ -6,7 +6,7 @@
  * To change this template use File | Settings | File Templates.
  */
 var getCheckboxes = function(){
-    var chk_arr =  document.getElementsByName("chk");
+    return  document.getElementsByName("chk");
 }
 
 
@@ -16,7 +16,7 @@ var filtersUpdated = function(){
      * gets all checkboxes
      * adds the corresponding filters with values
      */
-    getCheckboxes();
+    var chk_arr = getCheckboxes();
 
 
     var chklength = chk_arr.length;

@@ -9,7 +9,7 @@ var setCurrentHorse = function(){
 }
 
 var addHorseNameToTable = function(){
-    var mylist= getOPtionBox();
+    var mylist= getOptionBox();
     document.getElementById("horseName").innerHTML="<strong>"+mylist.options[mylist.selectedIndex].text+"</strong>";
 }
 
