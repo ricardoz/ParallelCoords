@@ -1,0 +1,46 @@
+/**
+ * Created with JetBrains WebStorm.
+ * User: Miriam Martin
+ * Date: 26/06/13
+ * Time: 23:53
+ * To change this template use File | Settings | File Templates.
+ */
+var getCheckboxes = function(){
+    var chk_arr =  document.getElementsByName("chk");
+}
+
+
+var filtersUpdated = function(){
+
+    /*
+     * gets all checkboxes
+     * adds the corresponding filters with values
+     */
+    getCheckboxes();
+
+
+    var chklength = chk_arr.length;
+    var filters = [];
+
+    for(k=0;k< chklength;k++)
+    {
+        var box = chk_arr[k];
+        var inn = "f"+k;
+        var val = document.getElementsByName(inn)[0].value
+
+        if (val === null){
+            val = prompt(("Please enter a value for " + box.value));
+            document.getElementsByName(inn)[0].value = val;
+        }
+
+        if(chk_arr[k].checked === true){
+            filters.push([allFilters[k], val]);
+        }
+    }
+
+    currentFilters = filters;
+
+    var links = raceLinksFromHorse(currentHorse,filters)
+
+    return  links;
+}

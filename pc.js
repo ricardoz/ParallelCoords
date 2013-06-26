@@ -129,17 +129,21 @@ var createChart = function(horse){
  	
  	
  	
- 	
+ 	/*
+ 	 * position in the race
+ 	 */
  	var xScale = d3.scale.linear()
 								 .domain([-1, 20+2])
 								 .range([padding, w - padding]);
-								 
-								 
 
-			var yScale = d3.scale.linear()
+
+    /*
+     * rpr
+     */
+	var yScale = d3.scale.linear()
 								 .domain([overallMin - 10, overallMax + 30])
 								 .range([h-padding,padding]);
-	//alert(min + " still in chart " + max);
+
 			
 	
  	//Define X axis
@@ -161,6 +165,8 @@ var createChart = function(horse){
 			.append("svg")
             .attr("width", w)
             .attr("height", h);
+
+    horse['svg'] = svg;
 			
 			svg.append("text")
         .attr("x", (w / 2))             
@@ -237,7 +243,7 @@ var createChart = function(horse){
 				.attr("transform", "translate(" + padding + ",0)")
 				.call(yAxis);
 
-				pc(horse);
+
         
   
 }
