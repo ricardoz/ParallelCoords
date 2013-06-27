@@ -36,14 +36,14 @@ var filtersUpdated = function(){
         if(chk_arr[k].checked === true){
             var p;
             p = [allFilters[k], val];
-            alert("p " + p);
+            //alert("p " + p);
             filters.push(p);
         }
     }
 
     currentFilters = filters;
 
-    alert("cf " + currentFilters);
+    //alert("cf " + currentFilters);
 
 }
 
