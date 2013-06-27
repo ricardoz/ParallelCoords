@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6789a14-830a-4dfc-b199-394a2ec70f2a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/filtersUpdatedFunction.js" afterPath="$PROJECT_DIR$/filtersUpdatedFunction.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pc.js" afterPath="$PROJECT_DIR$/pc.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/minMax.js" afterPath="$PROJECT_DIR$/minMax.js" />
     </list>
     <ignored path="ParallelCoords.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,10 +31,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pc.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="pc.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pc.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="263" column="100" selection-start="4795" selection-end="4795" vertical-scroll-proportion="0.61121494">
+            <state line="263" column="100" selection-start="4795" selection-end="4795" vertical-scroll-proportion="-13.08">
               <folding />
             </state>
           </provider>
@@ -50,10 +49,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="minMax.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="minMax.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/minMax.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="30" selection-start="20" selection-end="25" vertical-scroll-proportion="-0.68">
+            <state line="14" column="50" selection-start="214" selection-end="214" vertical-scroll-proportion="0.4448598">
               <folding />
             </state>
           </provider>
@@ -108,11 +107,11 @@
       <list>
         <option value="$PROJECT_DIR$/horseFrame.js" />
         <option value="$PROJECT_DIR$/pc.htm" />
-        <option value="$PROJECT_DIR$/minMax.js" />
         <option value="$PROJECT_DIR$/pc.css" />
         <option value="$PROJECT_DIR$/changeHorse.js" />
         <option value="$PROJECT_DIR$/filtersUpdatedFunction.js" />
         <option value="$PROJECT_DIR$/pc.js" />
+        <option value="$PROJECT_DIR$/minMax.js" />
       </list>
     </option>
   </component>
@@ -378,13 +377,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/minMax.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="30" selection-start="20" selection-end="25" vertical-scroll-proportion="-0.68">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/horseFrame.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="38" selection-start="163" selection-end="163" vertical-scroll-proportion="-7.16">
@@ -410,7 +402,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pc.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="263" column="100" selection-start="4795" selection-end="4795" vertical-scroll-proportion="0.61121494">
+        <state line="263" column="100" selection-start="4795" selection-end="4795" vertical-scroll-proportion="-13.08">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/minMax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="50" selection-start="214" selection-end="214" vertical-scroll-proportion="0.4448598">
           <folding />
         </state>
       </provider>

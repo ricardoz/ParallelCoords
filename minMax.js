@@ -13,7 +13,6 @@
 		
 		
 		var setMinAndMax = function(allTheHorses){
-		 	                            alert("in min and max");
 			
 			for (var horseName in allTheHorses){
 				var min = 2000;
