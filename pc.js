@@ -25,6 +25,11 @@ var filterByClass = function(race,value){
 }
 
 
+allFilters.push(filterByCourse);
+allFilters.push(filterByValue);
+allFilters.push(filterByClass);
+
+
 
 var pc = function(horse){
 
@@ -249,7 +254,3 @@ var createChart = function(horse){
         
   
 }
-
-allFilters.push(filterByCourse);
-allFilters.push(filterByValue);
-allFilters.push(filterByClass);

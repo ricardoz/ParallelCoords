@@ -31,10 +31,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pc.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="pc.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pc.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="181" column="29" selection-start="3001" selection-end="3001" vertical-scroll-proportion="0.75327104">
+            <state line="29" column="31" selection-start="566" selection-end="566" vertical-scroll-proportion="-19.04">
               <folding />
             </state>
           </provider>
@@ -76,10 +76,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="filtersUpdatedFunction.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="filtersUpdatedFunction.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/filtersUpdatedFunction.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="18" selection-start="392" selection-end="392" vertical-scroll-proportion="0.0">
+            <state line="18" column="18" selection-start="392" selection-end="392" vertical-scroll-proportion="0.3642857">
               <folding>
                 <element signature="e#0#164#0" expanded="false" />
               </folding>
@@ -391,15 +391,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/filtersUpdatedFunction.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="18" selection-start="392" selection-end="392" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#164#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/changeHorse.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="21" selection-start="332" selection-end="332" vertical-scroll-proportion="-3.74">
@@ -409,8 +400,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pc.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="181" column="29" selection-start="3001" selection-end="3001" vertical-scroll-proportion="0.75327104">
+        <state line="29" column="31" selection-start="566" selection-end="566" vertical-scroll-proportion="-19.04">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/filtersUpdatedFunction.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="18" selection-start="392" selection-end="392" vertical-scroll-proportion="0.3642857">
+          <folding>
+            <element signature="e#0#164#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
