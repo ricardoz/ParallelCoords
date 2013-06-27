@@ -40,7 +40,11 @@ var filtersUpdated = function(){
 
     currentFilters = filters;
 
-    var links = raceLinksFromHorse(currentHorse,filters)
+}
 
-    return  links;
+var update = function(){
+    filtersUpdated();
+    applyFilters();
+    horseLinks = raceLinksFromHorse(currentHorse);
+    updateCircles();
 }

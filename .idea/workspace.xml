@@ -2,16 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6789a14-830a-4dfc-b199-394a2ec70f2a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/filtersUpdatedFunction.js" afterPath="$PROJECT_DIR$/filtersUpdatedFunction.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pc.js" afterPath="$PROJECT_DIR$/pc.js" />
     </list>
     <ignored path="ParallelCoords.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="e6789a14-830a-4dfc-b199-394a2ec70f2a" time="1372270493259" ignored="false" />
-    <file path="/pc.js" changelist="e6789a14-830a-4dfc-b199-394a2ec70f2a" time="1372288856456" ignored="false" />
+    <file path="/pc.js" changelist="e6789a14-830a-4dfc-b199-394a2ec70f2a" time="1372296081237" ignored="false" />
     <file path="/pc.htm" changelist="e6789a14-830a-4dfc-b199-394a2ec70f2a" time="1372168244968" ignored="false" />
     <file path="/minMax.js" changelist="e6789a14-830a-4dfc-b199-394a2ec70f2a" time="1372200541818" ignored="false" />
     <file path="/changeHorse.js" changelist="e6789a14-830a-4dfc-b199-394a2ec70f2a" time="1372290275654" ignored="false" />
-    <file path="/filtersUpdatedFunction.js" changelist="e6789a14-830a-4dfc-b199-394a2ec70f2a" time="1372290259180" ignored="false" />
+    <file path="/filtersUpdatedFunction.js" changelist="e6789a14-830a-4dfc-b199-394a2ec70f2a" time="1372295588141" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,10 +32,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pc.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="pc.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pc.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="31" selection-start="566" selection-end="566" vertical-scroll-proportion="-19.04">
+            <state line="263" column="100" selection-start="4795" selection-end="4795" vertical-scroll-proportion="0.61121494">
               <folding />
             </state>
           </provider>
@@ -70,16 +71,16 @@
       <file leaf-file-name="changeHorse.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/changeHorse.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="21" selection-start="332" selection-end="332" vertical-scroll-proportion="-3.74">
+            <state line="17" column="7" selection-start="494" selection-end="494" vertical-scroll-proportion="-5.78">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="filtersUpdatedFunction.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="filtersUpdatedFunction.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/filtersUpdatedFunction.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="18" selection-start="392" selection-end="392" vertical-scroll-proportion="0.3642857">
+            <state line="48" column="20" selection-start="1066" selection-end="1066" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#0#164#0" expanded="false" />
               </folding>
@@ -109,8 +110,8 @@
         <option value="$PROJECT_DIR$/pc.htm" />
         <option value="$PROJECT_DIR$/minMax.js" />
         <option value="$PROJECT_DIR$/pc.css" />
-        <option value="$PROJECT_DIR$/filtersUpdatedFunction.js" />
         <option value="$PROJECT_DIR$/changeHorse.js" />
+        <option value="$PROJECT_DIR$/filtersUpdatedFunction.js" />
         <option value="$PROJECT_DIR$/pc.js" />
       </list>
     </option>
@@ -393,24 +394,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/changeHorse.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="21" selection-start="332" selection-end="332" vertical-scroll-proportion="-3.74">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pc.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="31" selection-start="566" selection-end="566" vertical-scroll-proportion="-19.04">
+        <state line="17" column="7" selection-start="494" selection-end="494" vertical-scroll-proportion="-5.78">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/filtersUpdatedFunction.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="18" selection-start="392" selection-end="392" vertical-scroll-proportion="0.3642857">
+        <state line="48" column="20" selection-start="1066" selection-end="1066" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#0#164#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="263" column="100" selection-start="4795" selection-end="4795" vertical-scroll-proportion="0.61121494">
+          <folding />
         </state>
       </provider>
     </entry>

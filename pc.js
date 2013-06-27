@@ -254,3 +254,20 @@ var createChart = function(horse){
         
   
 }
+
+var updateCirles = function(horse){
+    var svg = horse['svg'];
+    var dataset = horse['races'];
+
+    var circles = svg.selectAll("circle");
+
+    circles.style("fill", function(d) {
+        if (d['bool']){
+            return 'red';
+        }
+
+        return 'yellow';
+
+    })
+
+}
