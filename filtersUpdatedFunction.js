@@ -28,13 +28,15 @@ var filtersUpdated = function(){
         var inn = "f"+k;
         var val = document.getElementsByName(inn)[0].value
 
-        if (val === null){
+        if (val == null){
             val = prompt(("Please enter a value for " + box.value));
             document.getElementsByName(inn)[0].value = val;
         }
 
         if(chk_arr[k].checked === true){
-            filters.push([allFilters[k], val]);
+            val push = [allFilters[k], val];
+            alert(push);
+            filters.push(push);
         }
     }
 
