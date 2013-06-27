@@ -34,9 +34,10 @@ var filtersUpdated = function(){
         }
 
         if(chk_arr[k].checked === true){
-            val push = [allFilters[k], val];
-            alert(push);
-            filters.push(push);
+            var p;
+            p = [allFilters[k], val];
+            alert(p);
+            filters.push(p);
         }
     }
 
