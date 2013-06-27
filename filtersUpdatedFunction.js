@@ -51,5 +51,10 @@ var update = function(){
     filtersUpdated();
     applyFilters();
     horseLinks = raceLinksFromHorse(currentHorse);
-    updateCircles();
+
+    for (var horseName in allHorses){
+
+        var horse = allHorses[horseName];
+        updateCircles(horse);
+    }
 }
