@@ -261,6 +261,8 @@ var updateCircles = function(horse){
 
     var circles = svg.selectAll("circle");
 
+    alert("update " + circles.length);
+
     circles.style("fill", function(d) {
         if (d['bool']){
             return 'red';
