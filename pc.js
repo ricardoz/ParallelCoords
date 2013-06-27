@@ -255,7 +255,7 @@ var createChart = function(horse){
   
 }
 
-var updateCirles = function(horse){
+var updateCircles = function(horse){
     var svg = horse['svg'];
     var dataset = horse['races'];
 
