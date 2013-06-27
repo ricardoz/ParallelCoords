@@ -264,6 +264,7 @@ var updateCircles = function(horse){
     alert("update " + circles.length);
 
     circles.style("fill", function(d) {
+        alert("data  " + d);
         if (d['bool']){
             return 'red';
         }
