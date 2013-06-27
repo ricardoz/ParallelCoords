@@ -7,7 +7,7 @@ var filterByCourse = function(race,value){
 var filterByValue;
 
 filterByValue = function (race,value) {
-    var bool = race['value'] > value;;
+    var bool = race['value'] > value;
 
     return bool;
 };
@@ -133,7 +133,7 @@ var createChart = function(horse){
  	 * position in the race
  	 */
  	var xScale = d3.scale.linear()
-								 .domain([-1, 20+2])
+								 .domain([0, 20+2])
 								 .range([padding, w - padding]);
 
 
@@ -141,7 +141,7 @@ var createChart = function(horse){
      * rpr
      */
 	var yScale = d3.scale.linear()
-								 .domain([overallMin - 10, overallMax + 30])
+								 .domain([0, overallMax + 10])
 								 .range([h-padding,padding]);
 
 			
@@ -177,7 +177,9 @@ var createChart = function(horse){
         	.text(horse['name']);
 
 
-             
+    var div = d3.select("body").append("div")
+        .attr("class", "tooltip")
+        .style("opacity", 0);
            
     var circles = svg.selectAll("circle")
    .data(dataset)
@@ -186,7 +188,7 @@ var createChart = function(horse){
    
    circles.attr("cx", function(d) {
     	
-        return xScale(d[xLabel]);
+        return xScale(d['pos']);
    })
    .attr("cy", function(d) {
     	var v = d['rpr'];
