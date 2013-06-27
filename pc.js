@@ -261,15 +261,14 @@ var updateCircles = function(horse){
 
     var circles = svg.selectAll("circle");
 
-    alert("update " + circles.length);
 
     circles.style("fill", function(d) {
-        alert("data  " + d);
+
         if (d['bool']){
-            return 'red';
+            return 'blue';
         }
 
-        return 'yellow';
+        return 'green';
 
     })
 
