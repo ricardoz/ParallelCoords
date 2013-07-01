@@ -16,7 +16,7 @@ filterByValue = function (race,value) {
 var filterByClass = function(race,value){
  
  
- 	var re = new RegExp("\d{1}");
+ 	var re = new RegExp("\\d{1}");
     alert(race['raceClass']);
     if (digit == null){
         alert ("null " + re);
