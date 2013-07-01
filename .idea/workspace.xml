@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6789a14-830a-4dfc-b199-394a2ec70f2a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pc.css" afterPath="$PROJECT_DIR$/pc.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pc.js" afterPath="$PROJECT_DIR$/pc.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ParallelCoords.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="e6789a14-830a-4dfc-b199-394a2ec70f2a" time="1372300041309" ignored="false" />
-    <file path="/pc.js" changelist="e6789a14-830a-4dfc-b199-394a2ec70f2a" time="1372301815520" ignored="false" />
+    <file path="/Dummy.txt" changelist="e6789a14-830a-4dfc-b199-394a2ec70f2a" time="1372676451657" ignored="false" />
+    <file path="/pc.js" changelist="e6789a14-830a-4dfc-b199-394a2ec70f2a" time="1372303131999" ignored="false" />
     <file path="/pc.htm" changelist="e6789a14-830a-4dfc-b199-394a2ec70f2a" time="1372168244968" ignored="false" />
     <file path="/minMax.js" changelist="e6789a14-830a-4dfc-b199-394a2ec70f2a" time="1372200541818" ignored="false" />
     <file path="/changeHorse.js" changelist="e6789a14-830a-4dfc-b199-394a2ec70f2a" time="1372290275654" ignored="false" />
@@ -31,19 +33,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pc.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="pc.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pc.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="265" column="8" selection-start="4798" selection-end="4798" vertical-scroll-proportion="0.65178573">
+            <state line="20" column="33" selection-start="452" selection-end="452" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pc.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="pc.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pc.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="12" selection-start="8" selection-end="8" vertical-scroll-proportion="0.0">
+            <state line="57" column="16" selection-start="906" selection-end="906" vertical-scroll-proportion="0.3">
               <folding />
             </state>
           </provider>
@@ -79,10 +81,8 @@
       <file leaf-file-name="filtersUpdatedFunction.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/filtersUpdatedFunction.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="5" selection-start="1269" selection-end="1269" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#164#0" expanded="false" />
-              </folding>
+            <state line="9" column="74" selection-start="196" selection-end="245" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -107,11 +107,11 @@
       <list>
         <option value="$PROJECT_DIR$/horseFrame.js" />
         <option value="$PROJECT_DIR$/pc.htm" />
-        <option value="$PROJECT_DIR$/pc.css" />
         <option value="$PROJECT_DIR$/changeHorse.js" />
         <option value="$PROJECT_DIR$/minMax.js" />
         <option value="$PROJECT_DIR$/filtersUpdatedFunction.js" />
         <option value="$PROJECT_DIR$/pc.js" />
+        <option value="$PROJECT_DIR$/pc.css" />
       </list>
     </option>
   </component>
@@ -371,13 +371,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pc.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="12" selection-start="8" selection-end="8" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/horseFrame.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="38" selection-start="163" selection-end="163" vertical-scroll-proportion="0.0">
@@ -401,16 +394,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/filtersUpdatedFunction.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="5" selection-start="1269" selection-end="1269" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#164#0" expanded="false" />
-          </folding>
+        <state line="9" column="74" selection-start="196" selection-end="245" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pc.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="265" column="8" selection-start="4798" selection-end="4798" vertical-scroll-proportion="0.65178573">
+        <state line="20" column="33" selection-start="452" selection-end="452" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pc.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="16" selection-start="906" selection-end="906" vertical-scroll-proportion="0.3">
           <folding />
         </state>
       </provider>

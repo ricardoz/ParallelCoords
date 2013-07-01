@@ -18,7 +18,8 @@ var filterByClass = function(race,value){
  
  	var re = new RegExp("\d");
  	var digit = re.exec(race['raceClass']);
- 	var bool = digit >= value;
+    digit = digit.substring(0,1);
+ 	var bool = digit <= value;
  	
 	return bool;
 
