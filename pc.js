@@ -46,7 +46,7 @@ var svg = d3.select("body").append("svg")
 
     svg.append("text")
         .attr("x", (width/2))
-        .attr("y", 0 - (margin.top / 2))
+        .attr("y", 0 - (-10))
         .attr("text-anchor", "middle")
         .style("font-size", "16px")
         .style("text-decoration", "underline")
