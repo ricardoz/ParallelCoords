@@ -16,9 +16,9 @@ filterByValue = function (race,value) {
 var filterByClass = function(race,value){
  
  
- 	var re = new RegExp("/\d/");
+ 	var re = new RegExp("/\d{1}/");
     alert(race['raceClass']);
-    if (digit === null){
+    if (digit == null){
         alert ("null " + re);
     }
  	var digit = re.exec(race['raceClass']);
