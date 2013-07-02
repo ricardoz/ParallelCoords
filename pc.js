@@ -75,10 +75,7 @@ var svg = d3.select("body").append("svg")
 			
 			var t1 =  race[dims[i]];
 			
-			if (t1===undefined)
-			{
-				
-			}
+
 			
 			d.push(t1);
 		}
@@ -88,12 +85,7 @@ var svg = d3.select("body").append("svg")
 
 	
 	
-    data = [];
-
-    for (j=0; j< rs.length;j++){
-        data.push(getData(j));
-    }
-        //[getData(x) for (x in rs)];
+    data = [getData(x) for (x in rs)];
 	
 	
 	
