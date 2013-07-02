@@ -3,11 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="e6789a14-830a-4dfc-b199-394a2ec70f2a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pc.js" afterPath="$PROJECT_DIR$/pc.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ParallelCoords.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="e6789a14-830a-4dfc-b199-394a2ec70f2a" time="1372676451657" ignored="false" />
-    <file path="/pc.js" changelist="e6789a14-830a-4dfc-b199-394a2ec70f2a" time="1372723151700" ignored="false" />
+    <file path="/Dummy.txt" changelist="e6789a14-830a-4dfc-b199-394a2ec70f2a" time="1372771277681" ignored="false" />
+    <file path="/pc.js" changelist="e6789a14-830a-4dfc-b199-394a2ec70f2a" time="1372774310654" ignored="false" />
     <file path="/pc.htm" changelist="e6789a14-830a-4dfc-b199-394a2ec70f2a" time="1372168244968" ignored="false" />
     <file path="/minMax.js" changelist="e6789a14-830a-4dfc-b199-394a2ec70f2a" time="1372200541818" ignored="false" />
     <file path="/changeHorse.js" changelist="e6789a14-830a-4dfc-b199-394a2ec70f2a" time="1372290275654" ignored="false" />
@@ -34,7 +35,7 @@
       <file leaf-file-name="pc.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pc.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="32" selection-start="730" selection-end="730" vertical-scroll-proportion="0.9392857">
+            <state line="95" column="10" selection-start="1585" selection-end="1585" vertical-scroll-proportion="0.8660714">
               <folding />
             </state>
           </provider>
@@ -145,6 +146,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -165,7 +167,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -376,13 +377,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/filtersUpdatedFunction.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="74" selection-start="196" selection-end="245" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/changeHorse.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="7" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0">
@@ -404,9 +398,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/filtersUpdatedFunction.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="74" selection-start="196" selection-end="245" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pc.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="32" selection-start="730" selection-end="730" vertical-scroll-proportion="0.9392857">
+        <state line="95" column="10" selection-start="1585" selection-end="1585" vertical-scroll-proportion="0.8660714">
           <folding />
         </state>
       </provider>

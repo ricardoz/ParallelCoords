@@ -88,7 +88,12 @@ var svg = d3.select("body").append("svg")
 
 	
 	
-    data = [getData(x) for (x in rs)];
+    data = [];
+
+    for (j=0; j< rs.length;j++){
+        data.push(getData(j));
+    }
+        //[getData(x) for (x in rs)];
 	
 	
 	
