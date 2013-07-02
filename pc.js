@@ -26,10 +26,19 @@ var filterByClass = function(race,value){
 
 }
 
+var filterByDistance = function(race,value){
+
+    var diff = Math.abs(race['furlongs'] -  value);
+
+    return diff <= 1;
+
+}
+
 
 allFilters.push(filterByCourse);
 allFilters.push(filterByValue);
 allFilters.push(filterByClass);
+allFilters.push(filterByDistance);
 
 
 

@@ -7,7 +7,7 @@
     <ignored path="ParallelCoords.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="e6789a14-830a-4dfc-b199-394a2ec70f2a" time="1372676451657" ignored="false" />
-    <file path="/pc.js" changelist="e6789a14-830a-4dfc-b199-394a2ec70f2a" time="1372722093053" ignored="false" />
+    <file path="/pc.js" changelist="e6789a14-830a-4dfc-b199-394a2ec70f2a" time="1372723151700" ignored="false" />
     <file path="/pc.htm" changelist="e6789a14-830a-4dfc-b199-394a2ec70f2a" time="1372168244968" ignored="false" />
     <file path="/minMax.js" changelist="e6789a14-830a-4dfc-b199-394a2ec70f2a" time="1372200541818" ignored="false" />
     <file path="/changeHorse.js" changelist="e6789a14-830a-4dfc-b199-394a2ec70f2a" time="1372290275654" ignored="false" />
@@ -34,7 +34,7 @@
       <file leaf-file-name="pc.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pc.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="27" selection-start="902" selection-end="902" vertical-scroll-proportion="0.5303571">
+            <state line="40" column="32" selection-start="730" selection-end="730" vertical-scroll-proportion="0.9392857">
               <folding />
             </state>
           </provider>
@@ -369,27 +369,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/horseFrame.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="38" selection-start="163" selection-end="163" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/minMax.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="50" selection-start="214" selection-end="214" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/changeHorse.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="7" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pc.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="57" column="16" selection-start="906" selection-end="906" vertical-scroll-proportion="0.0">
@@ -404,9 +383,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/changeHorse.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="7" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/horseFrame.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="38" selection-start="163" selection-end="163" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/minMax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="50" selection-start="214" selection-end="214" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pc.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="27" selection-start="902" selection-end="902" vertical-scroll-proportion="0.5303571">
+        <state line="40" column="32" selection-start="730" selection-end="730" vertical-scroll-proportion="0.9392857">
           <folding />
         </state>
       </provider>
